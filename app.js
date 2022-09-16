@@ -21,7 +21,7 @@ app.post("/", (req, res)=>{
 
  const cityinput= input;
 
- const url="https://api.openweathermap.org/data/2.5/weather?q="+cityinput+"&appid=beccfe96cfadd9f52c975d3e617c9b2b&units=metric";
+ const url="https://api.openweathermap.org/data/2.5/weather?q="+cityinput+"&appid=&units=metric";
 
    https.get(url, (respons)=>{
      console.log(respons.statusCode);
